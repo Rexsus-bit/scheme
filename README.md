@@ -35,4 +35,5 @@ LEFT OUTER JOIN films AS f ON u.film_id = f.film_id
 
 GROUP BY f.film_id
 
-SORT BY rate DESC;
+SORT BY rate DESC
+limit 10;
